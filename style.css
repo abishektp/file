@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family:poppins;
+}
+ul,nav{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 5;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display:  -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 5px 0px; 
+    background-color: rgb(28, 23, 66);
+    color: #fff;
+}
+header h2{
+    text-transform: uppercase;
+
+}
+header nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display:  -o-flex;
+    display: flex;
+    width: 100%;
+    
+    
+    
+    
+}
+
+.navcolor{
+   
+    padding: 20px 800px 20px 600px;
+   
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    
+    
+    
+}
+header nav li{
+    font-family: sans-serif;
+    margin: 0 20px;
+    float:right;
+}
+header nav li:first-child{
+    margin-left: 0;
+}
+header nav li:last-child{
+    margin-right: 0;
+}
+@media(max-width:1000px){
+    header{
+        padding: 0px 20px;
+    }
+}
+@media(max-width:700px){
+    header{
+        flex-direction:column;
+    }
+   
+   header nav li{
+       margin: 0 15px ;
+   }
+}
+
+/*banner area*/
+
+section{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display:  -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+}
+@media(max-width:1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+@media(max-width:600px){
+    section{
+        padding: 125px 30px;
+    }
+}
+section p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    line-height: 2;
+}
+.banner-area{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-color: dimgrey ;
+}
+.banner-area h1{
+    margin-bottom: 35px;
+    margin-top: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.banner-area p{
+    font-family: monospace;
+    font-size: 16px;
+    
+}
+
+#logo { 
+    float: left;
+    
+    width: 65px;
+    height: 49px;
+  }
+
+ 
